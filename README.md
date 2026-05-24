@@ -145,6 +145,7 @@ Enter number of pizzas: 5
 
 Best promotional price: $26.00
 ```
+<img width="272" height="329" alt="image" src="https://github.com/user-attachments/assets/6ab538ae-78db-4bdb-a86e-30b7d5843520" />
 
 ---
 
