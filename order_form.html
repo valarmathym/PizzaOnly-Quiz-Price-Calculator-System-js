@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Ordering form</title> 
+	<script src="linked.js"></script>
+
+	<style>
+	/* Internal CSS */
+       h1{
+        color:blue;
+        font-size : 25px;
+		padding:  15px 50px;
+        }
+
+		.submit{
+	   font-weight: bold;
+	   padding:  5px 10px;	
+	   margin-top: 50px;
+	   margin-left: 100px;
+	   width:80px;
+	   font-size: 16px;
+	   font: 1em sans-serif blue;
+	   background-color:#601091;
+	
+       }   
+
+	   .boldText{
+		font-size: 18px;
+		font-weight: bold;
+		color:green;
+	   }   
+
+	    #message{
+		color :blue;
+		font-size: 22px;
+		padding:  15px 0px 0px 110px;
+	   }
+	</style>   
+	  
+</head>
+
+<body>
+<h1>PizzasOnly ordering form</h1>
+<p class ="boldText">    Simply enter the number of pizzas you want into the input below to find out the cost of your order</p>
+<form action="#" method="post" id="orderForm" onsubmit="return checkQuantity()">
+	
+	<p class = "boldText">
+		<label for="quantity">    Enter number of pizzas wanted:</label>
+        <input name="quantity" id="quantity">
+		
+	</p>
+	<p class = "submit">
+	<input value="Total cost" type="submit">
+
+	</p>
+</form>
+    <div id="message"></div>
+</body>
+</html>
